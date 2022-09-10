@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=G1-CM4.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=G1-CM4.SchDoc|FileName=G2-PMS.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=G1-CM4.SchDoc|FileName=G3-Sensor.SchDoc|SheetNumber=3

@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=PWR_5V Pin=U10-A4/B9
+Added Pin To Net: NetName=PWR_5V Pin=U10-B4/A9
+Added Room: Name=G1-CM4
+Added Room: Name=G2-PMS
+Added Room: Name=G3-Sensor

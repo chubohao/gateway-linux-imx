@@ -1,0 +1,18 @@
+Change Component Footprint: Designator=U32 Old Footprint=CC1101 New Footprint=CC2530
+Added Component: Designator=U26(CC1101)
+Added Pin To Net: NetName=GND Pin=U26-1
+Added Pin To Net: NetName=SPI0_MOSI Pin=U26-2
+Added Pin To Net: NetName=SPI0_SCK Pin=U26-3
+Added Pin To Net: NetName=SPI0_MISO Pin=U26-4
+Added Pin To Net: NetName=NetR40_2 Pin=U26-6
+Added Pin To Net: NetName=SPI0_433 Pin=U26-7
+Added Pin To Net: NetName=433_TXEN Pin=U26-8
+Added Pin To Net: NetName=433_RXEN Pin=U26-9
+Added Pin To Net: NetName=PWR_3V3 Pin=U26-11
+Added Pin To Net: NetName=GND Pin=U26-12
+Added Pin To Net: NetName=433_ANT Pin=U26-13
+Added Pin To Net: NetName=GND Pin=U26-14
+Added Pin To Net: NetName=GND Pin=U26-15
+Added Pin To Net: NetName=GND Pin=U26-16
+Added Pin To Net: NetName=NetR57_1 Pin=U32-24
+Added Member To Class: ClassName=G3-Sensor Member=Component U26 CC1101
