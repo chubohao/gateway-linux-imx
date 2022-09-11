@@ -1,5 +1,5 @@
 # Operating System
-![''](/assets/image/os.png)
+
 
 
 ## UBOOT
