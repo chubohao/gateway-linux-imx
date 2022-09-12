@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<configuration name="MCIMX6G2xxx05" xsi:schemaLocation="http://mcuxpresso.nxp.com/XSD/mex_configuration_11 http://mcuxpresso.nxp.com/XSD/mex_configuration_11.xsd" uuid="c8b12e51-c06b-4490-aaba-84623e83ddf5" version="11" xmlns="http://mcuxpresso.nxp.com/XSD/mex_configuration_11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <common>
+      <processor>MCIMX6G2xxx05</processor>
+      <package>MCIMX6G2CVM05</package>
+      <mcu_data>i_mx_2_0</mcu_data>
+      <cores selected="ca7">
+         <core name="Cortex-A7" id="ca7" description="A7 core"/>
+      </cores>
+      <description></description>
+   </common>
+   <preferences>
+      <validate_boot_init_only>true</validate_boot_init_only>
+      <generate_extended_information>false</generate_extended_information>
+      <generate_code_modified_registers_only>false</generate_code_modified_registers_only>
+      <update_include_paths>true</update_include_paths>
+      <generate_registers_defines>false</generate_registers_defines>
+   </preferences>
+   <tools>
+      <pins name="Pins" version="11.0" enabled="true" update_project_code="true">
+         <pins_profile>
+            <processor_version>11.0.0</processor_version>
+            <power_domains/>
+         </pins_profile>
+         <functions_list>
+            <function name="BOARD_InitPins">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>false</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="ECSPI1" signal="ecspi_mosi" pin_num="D2" pin_signal="CSI_DATA06"/>
+                  <pin peripheral="ECSPI1" signal="ecspi_sclk" pin_num="D4" pin_signal="CSI_DATA04"/>
+                  <pin peripheral="GPIO4" signal="gpio_io, 26" pin_num="D3" pin_signal="CSI_DATA05"/>
+                  <pin peripheral="GPIO3" signal="gpio_io, 22" pin_num="B13" pin_signal="LCD_DATA17"/>
+                  <pin peripheral="ECSPI1" signal="ecspi_miso" pin_num="D1" pin_signal="CSI_DATA07"/>
+               </pins>
+            </function>
+         </functions_list>
+      </pins>
+      <ddr name="DDR" version="1.0" enabled="false" update_project_code="true">
+         <components/>
+      </ddr>
+      <periphs name="Peripherals" version="11.0" enabled="false" update_project_code="true">
+         <peripherals_profile>
+            <processor_version>N/A</processor_version>
+         </peripherals_profile>
+         <functional_groups/>
+         <components/>
+      </periphs>
+      <pbl name="PBL" version="1.0" enabled="false" update_project_code="true">
+         <pbl_configuration class="java.util.ArrayList"/>
+      </pbl>
+      <serdes name="SERDES" version="1.0" enabled="false" update_project_code="true">
+         <components/>
+      </serdes>
+   </tools>
+</configuration>
